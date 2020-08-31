@@ -30,10 +30,15 @@ h2 {
 
 .site-item {
     flex: 0 30%;
+    margin-bottom: 30px;
 }
 
 .site-item img {
     width: 100%;
+}
+.site-img {
+  max-height: 1000px;
+  overflow-y: scroll;
 }
 
 .page-section.impression-section {
@@ -49,8 +54,8 @@ h2 {
 }
 
 .section-heading .container {
-    background: #00add5;
-    color: #fff;
+    border: 2px solid #333;
+    color: #333;
     padding: 25px 0;
     margin-bottom: 24px;
 }
@@ -114,7 +119,8 @@ p.secondary-heading {
 
 .page-header {
     padding: 104px 0;
-    background: url(./assets/images/header.jpg);
+    /*background: url(./assets/images/header.jpg);*/
+    background-color: #121212;
     position: relative;
 }
 
@@ -153,6 +159,13 @@ p.secondary-heading {
     position: relative;
     width: 100%;
     margin-top: -100px;
+}
+
+.layout-section {
+  display: none;
+}
+.inspo-section {
+  background: #e6e7e8;
 }
 
 
